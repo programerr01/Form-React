@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.StartDateContainer{
+  border:1px solid rgba(128, 128, 128, 0.274);
+  padding-top:4vh;
+  height:max-content;
+  width:100%;
+ 
+}
+.StartDateField{
+  background:rgba(128, 128, 128, 0.300);
+  width:30vw;
+}
+.EndDate{
+  width:30vw;
+}
+#StartText,
+#EndText,
+#RepeatText{
+  margin-right:15vw;
+  font-size:1.5rem;
+  font-weight:bold;
+  text-align:left;
+}
+.EndDateContainer{
+  
+  border:1px solid rgba(128, 128, 128, 0.274);
+}
+.SelectEnd{
+  width:110%;
+  height:110%;
+}
+.RepeatDateContainer{
+  height:60vh;
+  margin:3px;
+}
+.RepeatFormControl{
+  width:25vw;
+ 
+}
+.WeekSelector{
+  margin-top:6vh;
+  display:flex;
+  background:rgb(154, 211, 230);
+}
